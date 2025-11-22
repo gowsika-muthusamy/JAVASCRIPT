@@ -1,0 +1,70 @@
+html,body{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+background:linear-gradient(to top,#51e2f5,#9df9ef,#edf756,#ffa8B6);
+background-attachment: fixed;
+margin: 0;
+padding: 0;
+}
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+/* font-size: 1.2rem; */
+
+}
+.container{
+    background:linear-gradient(to top,#51e2f5,#9df9ef,#edf756,#ffa8B6);
+width:70%;
+height: 70%;;
+    min-width: 350px;
+min-height:350px;
+max-width:450px;
+text-align: center;
+padding: 0.1em;
+margin: 0.2em;
+border-color: black;
+border-radius: 2%;
+border-width: 10%;
+border-style: solid;
+}
+input{
+width:60% ;
+height: 1.5em;
+padding: 0.1em ;
+margin: 0.1em auto;
+display: block;
+justify-content: center;
+
+align-items: center;
+
+}
+button{
+    width: 7rem;
+    height: 2.7rem;
+    margin-top: 0.5rem;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 0%;
+    font-weight:700;
+    color: black;
+}
+input:focus{
+    outline: none;
+}
+button:hover{
+background-color: rgb(96, 168, 96);
+border: dotted 2px rgb(8, 8, 8);
+}
+.user-input.success input{
+border-color: rgb(44, 221, 44);
+border: dotted;
+}
+.user-input .error {
+    font-size:1rem;
+    color: darkred;
+    margin-bottom: 0.3rem;
+}
+.user-input.error input{
+border: 2px dotted  rgb(219, 21, 21);
+}
