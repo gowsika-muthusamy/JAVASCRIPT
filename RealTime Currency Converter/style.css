@@ -1,0 +1,111 @@
+/* html,body{font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background: conic-gradient( from 90deg at center,brown,blueviolet,aqua, red,yellow,green,blue );
+background-repeat: no-repeat;
+background-size: cover;
+margin:0%;
+padding:0%;
+height: 100vh;
+box-sizing: border-box;
+display: grid;
+    place-items: center;
+margin: 0;
+height: 100vh;
+} */
+html,body{
+
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background: conic-gradient( from 90deg at center,brown,blueviolet,aqua, red,yellow,green,blue );
+margin:0%;
+padding:0%;
+box-sizing: border-box;
+}
+body{
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;}
+
+.container{
+padding: 10px 24px;
+width: 60%;
+     background-color: aqua;
+       border-radius: 20px;
+}
+
+.container .box{
+   display: flex;
+   width: 100%;
+    
+    /* width: 20rem;
+    height: 20rem;
+    background-color: aqua;
+    display: grid;
+    place-items: center;
+    border-radius: 20px; */
+}
+/* .box div{
+    width: 100%;
+} */
+select{
+width: 95%;
+height:1.5%;
+font-size: 1.2em;
+cursor: pointer;
+background-color:black;
+color: white;
+margin: 0.2 em 0;
+padding: 0 1em;
+border-radius: 10px;
+outline: none;
+
+}
+input{
+width: 80%;
+height: 1.5%;
+font-size: 1em;
+outline: none;
+border-radius: 10px;
+background: #cccccc;
+border: none;
+padding: 0 1em;
+margin: 0.2em 0.5em;
+
+}
+h1{
+color: darkmagenta;
+text-align: center;
+font-family: Georgia, 'Times New Roman', Times, serif;
+margin-bottom: 0.5em;
+}
+.btn{ display: flex;
+    justify-content: center;
+
+}
+.leftbox, .rightbox{
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 48%;
+}
+
+.box{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2px;
+}
+button{
+     padding: 1%;
+   text-align: center;
+   font-size: 1em;
+   background-color: blueviolet;
+   width: 50%;
+   height: 5%;
+   border-radius: 20%;
+   border: 2px solid black;
+   cursor: pointer;
+ margin: 0.5em 0;
+
+}
